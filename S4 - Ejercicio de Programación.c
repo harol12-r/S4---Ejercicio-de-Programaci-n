@@ -25,7 +25,7 @@ int main()
         {
         case 1:
             float totalstockglobal = 0;
-            if (contproductos <= n_productos)
+            if (contproductos < n_productos)
             {
                 printf("Ingrese el nombre del producto %d: \n", contproductos);
                 scanf("%s", nombres[contproductos]);
